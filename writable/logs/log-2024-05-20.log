@@ -1,0 +1,172 @@
+CRITICAL - 2024-05-20 22:32:42 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\PA-FHO-2024-main\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Araras - Jardim Europa, Araras - SP, Brasil', 'São Paulo, SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:33:06 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\PA-FHO-2024-main\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Araras - Jardim Europa, Araras - SP, Brasil', 'São Paulo, SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:33:08 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&amp;destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\PA-FHO-2024-main\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Araras+-+Jardim+Europa%2C+Araras+-+SP%2C+Brasil&destination=S%C3%A3o+Paulo%2C+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Araras - Jardim Europa, Araras - SP, Brasil', 'São Paulo, SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:33:27 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&amp;destination=Brooklyn%2C+NY%2C+EUA&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&amp;destination=Brooklyn%2C+NY%2C+EUA&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\PA-FHO-2024-main\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&destination=Brooklyn%2C+NY%2C+EUA&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Queens, NY, EUA', 'Brooklyn, NY, EUA', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:34:16 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&amp;destination=Brooklyn%2C+NY%2C+EUA&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&amp;destination=Brooklyn%2C+NY%2C+EUA&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\PA-FHO-2024-main\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Queens%2C+NY%2C+EUA&destination=Brooklyn%2C+NY%2C+EUA&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Queens, NY, EUA', 'Brooklyn, NY, EUA', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:34:58 --> ErrorException: Undefined variable $duration
+[Method: GET, Route: map]
+in APPPATH\Views\map.php on line 13.
+ 1 APPPATH\Views\map.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(12): view('map')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:36:34 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:36:54 --> ErrorException: Undefined variable $duration
+[Method: GET, Route: map]
+in APPPATH\Views\map.php on line 13.
+ 1 APPPATH\Views\map.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(12): view('map')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:36:58 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:36:59 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-20 22:37:47 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

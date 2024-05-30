@@ -1,0 +1,48 @@
+CRITICAL - 2024-05-21 00:23:15 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-21 00:24:10 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Parque São Jorge, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-21 23:03:20 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Rua+Augusta+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;destination=Rua+Augusta+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=Neo+Qu%C3%ADmica+Arena+-+Avenida+Miguel+Ign%C3%A1cio+Curi+-+Vila+Carmosina%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&destination=Rua+Augusta+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Rua Augusta - Consolação, São Paulo - SP, Brasil', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

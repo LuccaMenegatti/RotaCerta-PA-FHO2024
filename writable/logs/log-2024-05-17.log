@@ -1,0 +1,1277 @@
+CRITICAL - 2024-05-17 03:24:36 --> Error: Call to undefined function localhost/PA-FHO-2024/public/()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 8.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:27:34 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:27:49 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:28:03 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:28:20 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:28:32 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:28:35 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:28:43 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:29:50 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:29:59 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:30:37 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:31:03 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:31:09 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:31:28 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(17): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:49:26 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(20): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 03:49:31 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: GET, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 21)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(21): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(20): App\ThirdParty\GoogleMaps->getDirections(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:13:00 --> ErrorException: Undefined variable $directions
+[Method: GET, Route: map]
+in APPPATH\Views\map.php on line 16.
+ 1 APPPATH\Views\map.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $directions', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(11): view('map')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:13:04 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:13:09 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:14:05 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:14:06 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:14:07 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:22:58 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:22:59 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:49 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:51 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:52 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:55 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:56 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:57 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:25:57 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:26:00 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:26:15 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:26:18 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:30:33 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:30:34 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:30:34 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:41 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:42 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:42 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:42 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:43 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:31:43 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:32:03 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:32:06 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:32:06 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:32:06 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:34:09 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:34:09 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:34:10 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:34:22 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:38:32 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:17 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:18 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:45 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:46 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:46 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:47 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:39:48 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:40:51 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:40:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:51 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:52 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:52 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:53 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:53 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:53 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:55 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:41:55 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:42:03 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:44:34 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:44:37 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:21:11 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 10.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:21:12 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 10.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:29:25 --> ErrorException: Undefined array key "origem"
+[Method: POST, Route: calcular-rotas]
+in APPPATH\Controllers\MapController.php on line 17.
+ 1 APPPATH\Controllers\MapController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origem"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:29:36 --> ErrorException: Undefined array key "origem"
+[Method: POST, Route: calcular-rotas]
+in APPPATH\Controllers\MapController.php on line 17.
+ 1 APPPATH\Controllers\MapController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origem"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:29:40 --> ErrorException: Undefined array key "origem"
+[Method: POST, Route: calcular-rotas]
+in APPPATH\Controllers\MapController.php on line 17.
+ 1 APPPATH\Controllers\MapController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origem"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:41:26 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:44:16 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:44:44 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:44:50 --> ErrorException: Undefined array key "origem"
+[Method: POST, Route: calcular-rotas]
+in APPPATH\Controllers\MapController.php on line 17.
+ 1 APPPATH\Controllers\MapController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "origem"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:45:06 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 14:47:17 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:03:52 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:18:58 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:24:34 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:24:51 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PA-FHO-2024\app\Controllers\MapController.php on line 26
+[Method: POST, Route: calcular-rotas]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\MapController.php(26): view('map', 'Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

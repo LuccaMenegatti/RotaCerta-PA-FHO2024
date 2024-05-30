@@ -1,0 +1,40 @@
+CRITICAL - 2024-05-19 19:10:34 --> ErrorException: Undefined variable $duration
+[Method: GET, Route: map]
+in APPPATH\Views\map.php on line 13.
+ 1 APPPATH\Views\map.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(12): view('map')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-19 19:12:53 --> TypeError: Unsupported operand types: array - int
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 4 APPPATH\Controllers\MapController.php(56): view('map', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-19 19:12:58 --> TypeError: Unsupported operand types: array - int
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 4 APPPATH\Controllers\MapController.php(56): view('map', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

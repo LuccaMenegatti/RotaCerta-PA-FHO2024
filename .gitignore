@@ -1,0 +1,37 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compiled output #
+###################
+public/writable/
+public/uploads/
+vendor/
+tmp/
+.phpintel/
+.env
+
+# API Keys #
+###########
+app/Config/GoogleMapsConfig.php
+
+# IDE #
+#######
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files #
+###############
+.DS_Store
+Thumbs.db
+
+# Misc #
+########
+*.log

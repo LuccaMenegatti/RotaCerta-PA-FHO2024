@@ -1,0 +1,376 @@
+CRITICAL - 2024-05-18 04:22:04 --> ParseError: Unclosed '{' on line 9
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:22:22 --> ParseError: Unclosed '{' on line 9
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:22:52 --> ParseError: Unclosed '{' on line 9
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:23:07 --> ParseError: Unclosed '{' on line 9
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:23:19 --> ParseError: Unclosed '{' on line 9
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:25:51 --> ErrorException: Undefined variable $duration
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(37): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:46:06 --> ErrorException: Undefined variable $transit_mode
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 20.
+ 1 APPPATH\ThirdParty\GoogleMaps.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transit_mode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 20)
+ 2 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Arena Corinthians - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:46:24 --> ErrorException: Undefined variable $transit_mode
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 20.
+ 1 APPPATH\ThirdParty\GoogleMaps.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transit_mode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 20)
+ 2 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:46:27 --> ErrorException: Undefined variable $transit_mode
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 20.
+ 1 APPPATH\ThirdParty\GoogleMaps.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transit_mode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 20)
+ 2 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:47:37 --> ErrorException: Undefined variable $transit_mode
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 20.
+ 1 APPPATH\ThirdParty\GoogleMaps.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transit_mode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 20)
+ 2 APPPATH\Controllers\MapController.php(30): App\ThirdParty\GoogleMaps->getDirections('Neo Química Arena - Avenida Miguel Ignácio Curi - Vila Carmosina, São Paulo - SP, Brasil', 'Morumbi Shopping - Avenida Roque Petroni Júnior - Jardim das Acacias, São Paulo - SP, Brasil', 'subway')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:50:19 --> ErrorException: Undefined variable $transitMode
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitMode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(35): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:50:32 --> ErrorException: Undefined variable $transitMode
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitMode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(35): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:50:38 --> ErrorException: Undefined variable $transitMode
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitMode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(35): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:52:18 --> ErrorException: Undefined variable $transitMode
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitMode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(35): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 04:52:31 --> ErrorException: Undefined variable $transitMode
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 6.
+ 1 APPPATH\Views\map.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitMode', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(35): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 05:34:02 --> ErrorException: Undefined array key "duration"
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 17.
+ 1 APPPATH\Views\map.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(41): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 05:34:15 --> ErrorException: Undefined array key "duration"
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 17.
+ 1 APPPATH\Views\map.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(41): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 05:36:55 --> ErrorException: Undefined array key "duration"
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 17.
+ 1 APPPATH\Views\map.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(41): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 05:39:25 --> ErrorException: Undefined variable $transitDetails
+[Method: POST, Route: map]
+in APPPATH\Views\map.php on line 8.
+ 1 APPPATH\Views\map.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transitDetails', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(43): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:13:37 --> ErrorException: Undefined array key "traffic_congestion"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 57.
+ 1 APPPATH\Controllers\MapController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "traffic_congestion"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:13:50 --> ErrorException: Undefined array key "traffic_congestion"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 57.
+ 1 APPPATH\Controllers\MapController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "traffic_congestion"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:14:42 --> ErrorException: Undefined array key "traffic_congestion"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 56.
+ 1 APPPATH\Controllers\MapController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "traffic_congestion"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:19:01 --> ErrorException: Undefined array key "num_transit_changes"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 55.
+ 1 APPPATH\Controllers\MapController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "num_transit_changes"', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:19:57 --> ParseError: syntax error, unexpected single-quoted string "transit_mode", expecting "]"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:21:33 --> ParseError: syntax error, unexpected single-quoted string "transit_mode", expecting "]"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:22:01 --> ParseError: syntax error, unexpected single-quoted string "transit_mode", expecting "]"
+[Method: POST, Route: map]
+in APPPATH\Controllers\MapController.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Controllers\\MapController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MapController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MapController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\MapController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:23:25 --> ErrorException: Undefined variable $duration
+[Method: GET, Route: map]
+in APPPATH\Views\map.php on line 13.
+ 1 APPPATH\Views\map.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duration', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\PA-FHO-2024\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\MapController.php(12): view('map')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:31:17 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(26): App\ThirdParty\GoogleMaps->getDirections('', '', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:31:22 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(26): App\ThirdParty\GoogleMaps->getDirections('', '', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-18 06:31:25 --> ErrorException: file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+[Method: POST, Route: map]
+in APPPATH\ThirdParty\GoogleMaps.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(https://maps.googleapis.com/maps/api/directions/json?origin=&amp;destination=&amp;mode=transit&amp;transit_mode=bus&amp;language=pt-BR&amp;key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\xampp\\htdocs\\PA-FHO-2024\\app\\ThirdParty\\GoogleMaps.php', 24)
+ 2 APPPATH\ThirdParty\GoogleMaps.php(24): file_get_contents('https://maps.googleapis.com/maps/api/directions/json?origin=&destination=&mode=transit&transit_mode=bus&language=pt-BR&key=AIzaSyCN_vBjAtiS8o-GiEwVzQa553s4OHVzBCg')
+ 3 APPPATH\Controllers\MapController.php(26): App\ThirdParty\GoogleMaps->getDirections('', '', 'bus')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MapController->calcularRota()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MapController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

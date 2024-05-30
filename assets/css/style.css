@@ -1,0 +1,111 @@
+body{
+	background-color: #273959;
+}
+
+footer{
+	background-color: #313E53;
+  margin-top: 2rem; 
+  padding: 1rem 0; 
+}
+
+#nav-menu{
+	background-color: #273959!important;
+}
+
+.logo{
+	width: 35%;
+}
+
+.logo:hover{
+	width: 40%;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  margin: 0 1.5rem !important
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.text-nav{
+  font-family: "Alfa Slab One", serif;
+  font-style: normal;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.text-nav:hover{
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+#calcularRota{
+  background-color: white;
+  color: #273959;
+  font-family: "Alfa Slab One", serif;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+#calcularRota:hover {
+  background-color: #313E53;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#map {
+  height: 400px;
+}
+
+.aboutUs {
+  background-color: white;
+  padding: 20px;
+  color: #273959;
+  text-align: justify;
+  font-size: 1.3em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.div-mobile{
+  display: none;
+}
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.foto-home{
+  display: block;
+}
+.espaco-topo{
+  padding-top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 75%;
+  }
+  .div-mobile{
+    display: flex;
+  }
+  .foto-home{
+    display: none;
+  }
+  .espaco-topo{
+    padding-top: 2em;
+  }
+}
+
+

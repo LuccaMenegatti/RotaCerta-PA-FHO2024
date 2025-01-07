@@ -16,10 +16,6 @@ tmp/
 .phpintel/
 .env
 
-# API Keys #
-###########
-app/Config/GoogleMapsConfig.php
-
 # IDE #
 #######
 .idea/
